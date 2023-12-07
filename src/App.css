@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  background-image: url("./assets/pexels-james-wheeler-417074.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Center the content vertically and horizontally */
+.container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+/* Use a semi-transparent white box for the content */
+.box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Use a custom font for the logo */
+.logo {
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+  color: #ff7b29;
+}
+
+/* Add some margin to the form elements */
+.field,
+.button {
+  margin-top: 1rem;
 }
