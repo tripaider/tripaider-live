@@ -9,10 +9,10 @@ function App() {
         <p className="subtitle is-6">
           Get Notified When We Launch
         </p>
-        <form action="mailto:tripaider.com@gmail.com" method="post" enctype="text/plain">
+        <form>
           <div className="field">
             <div className="control">
-              <input className="input" type="email" placeholder="Enter your email" name="tripaiderSubscription" required />
+              <input className="input" type="email" placeholder="Enter your email" required />
             </div>
           </div>
           <div className="field">
